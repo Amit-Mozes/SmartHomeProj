@@ -1,0 +1,15 @@
+[Unit]
+Description=Smart Home TCP Server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=mozes
+WorkingDirectory=/home/mozes/SmartHomeProject
+ExecStart=/home/mozes/SmartHomeProject/.venv/bin/python -m smart_home_project.server.main --host 0.0.0.0 --port 8820
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

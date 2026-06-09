@@ -1,0 +1,13 @@
+{
+  "host": "0.0.0.0",
+  "port": 8820,
+  "device_mode": "mock",
+  "user_db": "server_config.json",
+  "device_config": "devices_config.json",
+  "log_file": "../../logs/server.log",
+  "server_discovery_enabled": true,
+  "server_discovery_port": 8821,
+  "server_discovery_name": "Smart Home Server",
+  "esp_discovery_enabled": true,
+  "esp_discovery_port": 8891
+}

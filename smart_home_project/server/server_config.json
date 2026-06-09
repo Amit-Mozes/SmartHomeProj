@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password_hash": "pbkdf2_sha256$120000$jxpPGuq8mB7BMaN9+SO+Fg==$ibO/hxwRg7nC+7UkvKOYgeVq8615mAK7xCJmEvc+3p0=",
+      "role": "admin"
+    },
+    {
+      "username": "parent",
+      "password_hash": "pbkdf2_sha256$120000$omyvGEPXP1ngtzkpf3jmtw==$B5iZauCHyPLrCpxD8p+cT/FcopzF0VUSzETzqJzLAg4=",
+      "role": "parent"
+    },
+    {
+      "username": "child",
+      "password_hash": "pbkdf2_sha256$120000$wtdrU2ImxlaImnbQBVDP9w==$3nwiknhMo5BFbDCgTjTARW4JKNPTwBcfME106f51rIo=",
+      "role": "child"
+    },
+    {
+      "username": "guest",
+      "password_hash": "pbkdf2_sha256$120000$ylfo9B0NlV6wfsLRdnKhTg==$DGPxAEvNzsE4xCHeJH/CbinJ4/TAYNoFbcBGBOsDAwE=",
+      "role": "guest"
+    }
+  ]
+}
